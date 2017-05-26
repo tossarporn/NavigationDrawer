@@ -6,6 +6,7 @@
     <string name="nevdemo">navigation</string>
     <string name="home">home</string>
     <string name="setting">setting</string>
+    <string name="fileimport">fileimport</string>
     <!--End add string content_main-->
 
     <!--add text bottom logo-->
