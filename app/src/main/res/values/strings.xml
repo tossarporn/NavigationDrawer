@@ -7,4 +7,8 @@
     <string name="home">home</string>
     <string name="setting">setting</string>
     <!--End add string content_main-->
+
+    <!--add text bottom logo-->
+    <string name="logo">Navigation Drawer</string>
+    <!--End add text bottom logo-->
 </resources>

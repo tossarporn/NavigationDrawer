@@ -3,5 +3,8 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <!--add-->
     <color name="colorNavText">#ffffffs</color>
+    <color name="logo">#433AEE</color>
+    <!--End add-->
 </resources>
