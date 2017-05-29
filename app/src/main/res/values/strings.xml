@@ -13,4 +13,9 @@
     <!--add text bottom logo-->
     <string name="logo">Navigation Drawer</string>
     <!--End add text bottom logo-->
+
+    <!--add ActionBarDrawerToggle string from MainActivity Class-->
+        <string name="navigation_drawer_open">Open</string>
+        <string name="navigation_drawer_close">Close</string>
+    <!--end ActionBarDrawerToggle string from MainActivity Class-->
 </resources>
