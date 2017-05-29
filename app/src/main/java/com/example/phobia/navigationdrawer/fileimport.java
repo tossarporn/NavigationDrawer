@@ -1,23 +1,27 @@
 package com.example.phobia.navigationdrawer;
 
 import android.content.Intent;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+/**
+ * Created by Phobia on 5/29/2017.
+ */
 
+public class fileimport extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener{
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_fileimport);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -59,17 +63,17 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
         if (id == R.id.home) {
-            Intent searchIntent = new Intent(MainActivity.this, home.class);
+            Intent searchIntent = new Intent(fileimport.this, home.class);
             startActivity(searchIntent);
             overridePendingTransition(R.anim.pull_in_right,R.anim.push_out_left);
         }
         else if (id == R.id.setting) {
-            Intent searchIntent = new Intent(MainActivity.this, fileimport.class);
+            Intent searchIntent = new Intent(fileimport.this, fileimport.class);
             startActivity(searchIntent);
             overridePendingTransition(R.anim.pull_in_right,R.anim.push_out_left);
         }
         else if (id == R.id.slideshow){
-            Intent searchIntent = new Intent(MainActivity.this, slideshow.class);
+            Intent searchIntent = new Intent(fileimport.this, slideshow.class);
             startActivity(searchIntent);
             overridePendingTransition(R.anim.pull_in_right,R.anim.push_out_left);
 

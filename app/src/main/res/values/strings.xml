@@ -18,4 +18,8 @@
         <string name="navigation_drawer_open">Open</string>
         <string name="navigation_drawer_close">Close</string>
     <!--end ActionBarDrawerToggle string from MainActivity Class-->
+
+    <!--add string action_setting-->
+    <string name="action_settings">setting</string>
+    <!--end string action_setting-->
 </resources>
